@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Viewer's Dashboard</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="fonts/fonts.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/scroll/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+    <div class="ribbon-wrapper-green">
+    	<div class="ribbon-green">
+    		<a href="#Social-conect">
+	    		<img width="20px" src="images/icon/ico_dolar.png">
+	    		<span>+100</span>
+    		</a>
+    	</div>
+    </div>
+		
+		<article id="Wrap" class="clearfix">
+			<article id="Side">
+				<p id="Logo"><a href="../index.html"><img src="images/common/logo.png" alt=""></a></p>
+				<div class="side-nav">
+					<ul class="nav-list">
+						<li class="active"><a href="#"><img src="images/icon/ico_home.png" width="27" alt=""><span>Dashboard</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_reward.png" width="23" alt=""><span>Rewards</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_overlay.png" width="21" alt=""><span>Overlays</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_competition.png" width="23" alt=""><span>Competitions</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_contest.png" width="22" alt=""><span>Contests</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_giveaway.png" width="20" alt=""><span>Giveaways</span></a></li>
+						<li><a href="viewer_connections.html"><img src="images/icon/ico_conection.png" width="41" alt=""><span>Connections</span></a></li>
+						<li><a href="#"><img src="images/icon/ico_setting.png" width="26" alt=""><span>Settings</span></a></li>
+					</ul>
+				</div><!-- side-nav -->
+			</article><!-- Side -->
+
+			<article id="Main">
+				<header id="Header">					
+					<div class="head-search">
+						<form action="#" method="post">
+							<p class="search-bar">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<input type="text" name="search" placeholder="What are you looking for...">
+							</p>
+						</form>
+					</div><!-- head-search -->					
+						
+					<div class="head-block">					
+						<div class="head-warning">
+			              <a href="#"><i class="fa fa-bell" aria-hidden="true"></i><span class="num">20</span></a>
+			          	</div>
+
+						<div class="user-nav">
+							<div class="btn-group">
+							  <p class="head-avatar" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <span class="circle-img"><img src="images/viewer_avatar_small.png" alt=""></span>
+							    <span class="username">draknorr</span>
+							    <span class="ico-down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+							  </p>
+							  <ul class="dropdown-menu">
+							      <li>
+							        <a href="#">
+							          <i class="fa fa-user" aria-hidden="true"></i>
+							          <span>My profile</span>
+							        </a>
+							      </li>
+							      <li>
+							        <a href="#">
+							          <i class="fa fa-cog" aria-hidden="true"></i>
+							          <span>User Setting</span>
+							        </a>
+							      </li>
+							      <li>
+							        <a href="../index.html" data-method="post">
+							        <i class="fa fa-sign-out" aria-hidden="true"></i>
+							        <span>Logout</span>
+							      </a>
+							    </li>
+							  </ul>
+							</div>
+						</div>
+					</div><!-- head-block -->
+				</header><!-- Header -->
+
+				<div id="Visual">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="info clearfix">
+									<p class="img-avatar"><img src="images/viewer_avatar.png" alt=""></p>
+									<div class="info-right">
+										<p class="txt-info"><span>Nick name</span>draknorr</p>
+										<p class="txt-info"><span>Channel</span><a target="_blank" href="http://twitch.tv/draknorr">@ twitch.tv/draknorr</a></p>
+										<p class="txt-info"><span>Bio</span>"Best Paladin in the world"</p>
+									</div><!-- info-right -->
+								</div><!-- info -->
+							</div>
+							<div class="col-md-2">
+								<div class="follow">
+									<p class="txt-info"><span>Follower</span>20,457</p>
+									<p class="txt-info"><span>Following</span>1989</p>
+									<p class="txt-info"><span>Videos</span>243</p>
+								</div><!-- follow -->
+							</div>
+							<div class="col-md-4">
+								<div class="victory">
+									<div class="head-info" data-toggle="modal" data-target=".bs-modal-lg">
+										<p class="point"><span>1123</span></p>
+										<p class="chanel">4 channels</p>
+									</div><!-- head-info -->
+									<p class="ttl-victory">Recent Victories:</p>
+									<ul class="victory-list">
+										<li><a href="#">1v1 Bet on Xaryu</a></li>
+										<li><a href="#">Win RazerNaga Giveaway</a></li>
+										<li><a href="#">1v1 Bet on Xaryu</a></li>
+									</ul>
+								</div><!-- victory -->
+							</div>
+						</div>
+					</div>
+				</div><!-- Visual -->
+
+				<div id="Content">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="section">
+									<h2 class="ttl-title">Open Competitions from your Subscriptions</h2>
+									<div class="section-inner">
+										<div class="item-list">
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar01.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar02.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar03.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar04.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar05.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar06.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar07.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+
+											<div class="item clearfix">
+												<p class="img-item"><img src="images/img_avatar08.png" alt=""></p>
+												<div class="item-right">
+													<div class="item-head">
+														<h3 class="ttl-item">1 hour mid lane tutoring</h3>
+														<p class="item-hr"><i class="fa fa-clock-o" aria-hidden="true"></i>
+		<span>36h - Free</span></p>
+													</div><!-- item-head -->
+
+													<div class="txt-des">
+														<p>Hi guys! <br>
+		Winner will recieve one hour tutoring from me on how to play Zed in the midlane! This competition is free entry, so please sign up now.</p>
+													</div><!-- txt-des -->
+													
+													<div class="range-bot">
+														<div class="range-left">												
+															<p class="point">1123 Points</p>
+															<div class="share">
+																<p class="lbl-left">Share:</p>
+																<ul class="social-list">
+																	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+																	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+																</ul>
+															</div><!-- share -->
+														</div><!-- range-left -->											
+														<p class="btn-signup"><a class="btn btn-orange" href="#">Sign up!</a></p>
+													</div><!-- range-bot -->
+												</div><!-- item-right -->
+											</div><!-- item -->
+										</div><!-- item-list -->
+										<p class="view-more"><a href="#">View more</a></p>
+									</div><!-- section-inner -->
+								</div><!-- section -->
+								
+								<div class="section" id="Social-conect">
+									<h2 class="ttl-title">Connect Socially (Earn rewards by connecting socially)</h2>
+									<div class="section-inner">
+										<ul class="social-conect-list">
+											<li class="connected">
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_fb_conect.png" alt="">
+													<span class="conect-status">Connected</span>
+												</a>
+											</li>
+											<li class="connected">
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_twitter_conect.png" alt="">
+													<span class="conect-status">Connected</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_istagram_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_twitch_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_snap_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_google_plus_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_psn_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_bl_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_stream_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_origin_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_curse_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="lbl-point">+100pts</span>
+													<img src="images/icon/ico_xbl_conect.png" alt="">
+													<span class="conect-status">Connect</span>
+												</a>
+											</li>
+										</ul>
+									</div><!-- section-inner -->
+								</div><!-- section -->
+							</div>
+
+							<div class="col-md-3">
+								<div class="block-section">
+									<div class="block-scroll">
+										<h2 class="ttl-title">Currently Online</h2>
+										<ul class="online-list">
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online01.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">SKT  T1 Faker</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online02.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">SKT T1 Tsquared</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online03.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">TSM Hauntzer</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online04.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">CLG Aphromoo</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online05.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">EG Arteezy</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online06.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">TSM Biofrost</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online01.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">Brent Oliver</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online02.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">Passol Ant</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online03.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">BatmanC9</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online04.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">Joker</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online05.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">Final Dee</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span class="avatar-left">
+														<img src="images/img_avatar_online06.png" alt="">
+														<span class="status online"></span>
+													</span>
+													<span class="name">Dr.Strange</span>
+												</a>
+											</li>
+										</ul>
+									</div><!-- block-scroll -->
+								</div><!-- block-section -->
+
+								<div class="block-section">
+									<h2 class="ttl-title">Recently Earned Rewards</h2>
+									<div class="block-list">
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_recent01.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">Razor headphone</span>
+													<span class="txt-item">500 Points</span>
+													<span class="txt-item">Claimed on 11/12/2016</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_recent02.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">Razor headphone</span>
+													<span class="txt-item">500 Points</span>
+													<span class="txt-item">Claimed on 11/12/2016</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_recent03.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">Ducky Keyboard</span>
+													<span class="txt-item">500 Points</span>
+													<span class="txt-item">Claimed on 11/12/2016</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_recent04.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">Razor naga</span>
+													<span class="txt-item">500 Points</span>
+													<span class="txt-item">Claimed on 11/12/2016</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+									</div><!-- block-list -->
+								</div><!-- block-section -->
+
+								<div class="block-section">
+									<h2 class="ttl-title">Your Groups</h2>
+									<div class="block-list">
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_group01.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">TSM</span>
+													<span class="txt-bold">Team Solo Mid</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_group02.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">Method</span>
+													<span class="txt-bold">Team Solo Mid</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_group03.png" alt=""></span>
+												<span class="item-right">
+													<span class="m-title">ACMM</span>
+													<span class="txt-bold">Team Solo Mid</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+									</div><!-- block-list -->
+								</div><!-- block-section -->
+
+								<div class="block-section">
+									<h2 class="ttl-title">Suggested Streamers</h2>
+									<div class="block-list">
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_streamer01.png" alt=""></span>
+												<span class="item-right">
+													<span class="name-streamer">Araragidanil</span>
+													<span class="name-game">LEAGUE OF LEGENDS</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_streamer02.png" alt=""></span>
+												<span class="item-right">
+													<span class="name-streamer">TSM Biofrost</span>
+													<span class="name-game">HEROES OF WARCRAFT</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_streamer03.png" alt=""></span>
+												<span class="item-right">
+													<span class="name-streamer">Shogunates3</span>
+													<span class="name-game">WORLD OF WARCRAFT</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+
+										<div class="block-item">
+											<a href="javascript:void(0);">
+												<span class="img-item"><img src="images/img_avatar_streamer04.png" alt=""></span>
+												<span class="item-right">
+													<span class="name-streamer">Araragidanil</span>
+													<span class="name-game">LEAGUE OF LEGENDS</span>
+												</span><!-- item-right -->
+											</a>
+										</div><!-- block-item -->
+										<p class="view-more"><a href="#">View more</a></p>
+								</div><!-- block-section -->
+							</div>
+						</div>
+					</div>
+				</div><!-- Content -->
+			</article><!-- Main -->
+			<footer id="Footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<p id="Copryright">ProjectOliver &copy; 2016 - Terms of Service - Privacy policy </p>
+						</div>
+
+						<div class="col-md-6">
+							<ul class="social-list">
+							<li><a href="#"><img src="images/icon/ico_fb.png" alt=""></a></li>
+							<li><a href="#"><img src="images/icon/ico_twitter.png" alt=""></a></li>
+							<li><a href="#"><img src="images/icon/ico_twitch.png" alt=""></a></li>
+							<li><a href="#"><img src="images/icon/ico_istagram.png" alt=""></a></li>
+							<li><a href="#"><img src="images/icon/ico_youtube.png" alt=""></a></li>
+						</ul>
+						</div>
+					</div>					
+				</div>
+			</footer>
+			<p id="Pagetop"><a href="#Wrap"><i class="fa fa-angle-up" aria-hidden="true"></i></a></p>
+		</article><!-- Wrap -->		
+
+		<div class="alert alert-success" role="alert">
+			<button href="#" type="button" class="close">&times;</button>
+			<p>Congrats! You received +100 Oliver coins</p>
+		</div>
+
+		<div class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="gridSystemModalLabel">Your Points<span>You have collected these points for these streamers</span></h4>
+		      </div><!-- modal-header -->
+
+		      <div class="modal-body">
+						<table class="table table-striped">
+							<tr>
+								<th>Streamer Name</th>
+								<th>Current Points</th>
+								<th>All time points</th>
+								<th>&nbsp;</th>
+							</tr>
+							<tr>
+								<td>
+									<img src="images/img_avatar_streamer01.png" alt="">
+									<span class="name">Araragidanil</span>
+								</td>
+								<td>1000 Meowbucks</td>
+								<td>1000 Meowbucks</td>
+								<td><a href="#">See more</a></td>
+							</tr>
+
+							<tr>
+								<td>
+									<img src="images/img_avatar_streamer02.png" alt="">
+									<span class="name">C9</span>
+								</td>
+								<td>100 Honor</td>
+								<td>100 Honor</td>
+								<td><a href="#">See more</a></td>
+							</tr>
+
+							<tr>
+								<td>
+									<img src="images/img_avatar_streamer03.png" alt="">
+									<span class="name">Shogunates3</span>
+								</td>
+								<td>20 Bullets</td>
+								<td>20 Bullets</td>
+								<td><a href="#">See more</a></td>
+							</tr>
+
+							<tr>
+								<td>
+									<img src="images/img_avatar_streamer04.png" alt="">
+									<span class="name">TSM Biofrost</span>
+								</td>
+								<td>3 Drops</td>
+								<td>3 Drops</td>
+								<td><a href="#">See more</a></td>
+							</tr>
+						</table>
+		      </div>				
+
+		    </div>
+		  </div>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/main.js"></script>	
+	</body>
+</html>

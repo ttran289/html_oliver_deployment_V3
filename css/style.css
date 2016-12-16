@@ -1,0 +1,482 @@
+
+/*-------------------------
+	MAINVISUAL
+---------------------------*/
+#Mainvisual .main-slide {
+	max-height: 650px;
+	overflow: hidden;
+	position: relative;
+}
+#Mainvisual .slide-content {
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	z-index: 1000;
+}
+#Mainvisual .ttl-visual {
+	font-size: 40px;
+	margin: 0;
+	font-family: "gotham_boldregular", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+#Mainvisual .txt-des {
+	font-size: 36px;
+	padding: 25px 0 0 0;
+	margin: 0;
+}
+#Mainvisual .btn-start {
+	margin: 30px 0 0 0;
+}
+#Mainvisual ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Mainvisual ul li {
+	min-height: 650px;
+	background-position: center top!important;
+	background-repeat: no-repeat!important;
+	-webkit-background-size: cover!important;
+	background-size: cover!important;
+}
+
+/*-------------------------
+	Userguide
+---------------------------*/
+#Userguide {
+	background: #353c3f;
+	padding: 40px 0;
+}
+#Userguide .block-item {
+	padding: 25px 0 0 0;
+}
+#Userguide .txt {
+	color: #d5d6d2;
+	margin: 0;
+}
+#Userguide .img {
+	padding: 30px 0 0 0;
+	margin: 0;
+}
+#Userguide .img img {
+	width: 100%;
+}
+
+/*-------------------------
+	Download
+---------------------------*/
+#Download .reward {
+	background: #fff;
+	padding: 55px 0 0;
+}
+#Download .img img {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	width: 100%;
+}
+#Download .ttl-title {
+	color: #353c3f;
+}
+#Download .ttl-title span:before {
+	background: #353c3f;
+}
+#Download .item-list {
+	padding: 22px 0 0 0;
+}
+#Download .item-list p {
+	margin: 0;
+}
+#Download .item-list .item .ttl-item {
+	font-family: 'gotham_boldregular';
+}
+#Download .item-list .item {
+	background: url('../images/icon/ico_arrow01.png') no-repeat 0 2px;
+	-webkit-background-size: 26px;
+	background-size: 26px;
+	padding: 0 0 0 40px;
+}
+#Download .item-list .item + .item {
+	margin: 30px 0 0 0;
+}
+.social {
+	background: #ff8d3f;
+	padding: 48px 0;
+	margin: 30px 0 0 0;
+}
+.social .txt {
+	color: #fff;
+	font-size: 36px;
+	padding: 4px 0 0 0;
+}
+.social .social-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social .social-list li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.social .social-list li a {
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	display: block;
+}
+.social .social-list li + li {
+	padding: 0 0 0 45px;
+}
+.social .social-list li a:hover {	
+	margin-top: -10px;
+}
+.social .social-list li img {
+	max-height: 45px;
+	width: auto;
+}
+.chatbot {
+	padding: 40px 0;
+}
+.chatbot .ttl-title {
+	color: #353c3f;
+}
+.chatbot .ttl-title span:before {
+	background: #353c3f;
+}
+.chatbot .item-txt {
+	padding: 25px 0 0 0;
+}
+.chatbot .item-txt .txt + .txt {
+	padding: 30px 0 0 0;
+}
+.chatbot .chatbot-list .streamer-item .streamer-inner {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,.14);
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,.14);
+	box-shadow: 0 0 7px rgba(0,0,0,.14);
+	border: solid 1px #e6e6e4;
+	width: 402px;
+	padding: 15px 30px 10px 60px;
+}
+.chatbot .chatbot-list .chatbot-item p {
+	color: #353c3f;
+	margin: 0;
+	font-size: 18px;
+}
+.chatbot .chatbot-list .chatbot-item + .chatbot-item {
+	padding: 15px 0 0 60px;
+}
+.chatbot .chatbot-list .chatbot-item + .chatbot-item + .chatbot-item {
+	padding: 15px 0 0 110px;
+}
+.sharing {
+	background: #f5f5f5;
+	border-top: 2px solid #d9d9d9;
+	padding: 40px 0;
+}
+.sharing .ttl-title {
+	color: #353c3f;
+}
+.sharing .ttl-title span:before {
+	background: #353c3f;
+}
+.sharing .txt {
+	padding: 30px 0 0 0;
+}
+.sharing .logo-list {
+	margin-top: 10px;
+}
+.sharing .logo-list .logo-item {
+	margin: 20px 0 0 0;
+}
+.sharing .logo-list a {
+	display: block;
+	border: 1px solid #dcdcdc;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 12px 20px;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease; 
+}
+.sharing .logo-list a img {
+	opacity: .5;
+    filter: alpha(opacity=50);
+    -webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.sharing .logo-list a:hover {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.sharing .logo-list a:hover img {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*-------------------------
+	Streamers
+---------------------------*/
+#Streamers {
+	background: #353c3f;
+	padding: 40px 0;
+}
+#Streamers .ttl-title {
+	color: #d5d6d2;
+	text-align: center;
+}
+#Streamers .ttl-title span:before {
+	background: #d5d6d2;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+#Streamers .block-stream {
+	padding: 50px 0 20px 0;
+}
+#Streamers .nav-tabs {
+	border: none;
+}
+#Streamers .nav-tabs li {
+	display: block;
+	float: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+#Streamers .nav-tabs li + li {
+	padding: 10px 0 0 0;
+}
+#Streamers .nav-tabs li a {
+	color: #353c3f;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background: #f5f5f5;
+	border: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	-webkit-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	height: 60px;
+	position: relative;
+	outline: none;
+}
+#Streamers .nav-tabs li a img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+#Streamers .nav-tabs li a .img-left {
+	float: left;
+	width: 60px;
+}
+#Streamers .nav-tabs li a .info-right {
+	margin: 7px 0 0 75px;
+	display: block;
+}
+#Streamers .nav-tabs li a .info-right span {
+	display: block;
+	color: #353c3f;
+}
+#Streamers .nav-tabs li a .info-right .name {
+	font-family: 'gotham_boldregular';
+}
+#Streamers .nav-tabs li a .info-right .game-name {
+	text-transform: uppercase;
+}
+#Streamers .nav-tabs li a .follow {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#Streamers .nav-tabs li a em {
+	font-style: normal;
+}
+#Streamers .nav-tabs li.active a,
+#Streamers .nav-tabs li a:hover {
+	background: #ff8d3f;
+	border: none;
+}
+#Streamers .nav-tabs li.active a i,
+#Streamers .nav-tabs li a:hover i,
+#Streamers .nav-tabs li.active a em,
+#Streamers .nav-tabs li a:hover em,
+#Streamers .nav-tabs li.active a .info-right span,
+#Streamers .nav-tabs li a:hover .info-right span {
+	color: #fff;
+}
+#Streamers .tab-content {
+	height: 100%;
+}
+.h_iframe {position:relative;}
+.h_iframe .ratio {
+	display:block;
+	width:100%;
+	height:auto;
+}
+.h_iframe iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*-------------------------
+	Faq
+---------------------------*/
+#Faq {
+	border-top: 1px solid #fff;
+	background: #f5f5f5;
+	padding: 40px 0;
+}
+#Faq .ttl-title {
+	color: #353c3f;
+}
+#Faq .ttl-title span:before {
+	background: #353c3f;
+}
+#Faq .check-list {
+	list-style: none;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+#Faq .check-list li {
+	padding: 8px 0 0 0;
+}
+#Faq .check-list li span {
+	display: block;
+	background: url('../images/icon/ico_check.png') no-repeat 0 6px;
+	-webkit-background-size: 17px;
+	background-size: 17px;
+	padding: 0 0 0 30px;
+}
+#Faq .btn-get-start {
+	padding: 40px 0 0 0;
+}
+#Faq .img {
+	padding: 25px 0 0 0;
+}
+
+
+/*-------------------------
+	RESPONSIVE
+---------------------------*/
+@media screen and (max-width: 1199px){
+	.social .social-list li + li {
+		padding: 0 0 0 35px;
+	}
+}
+@media screen and (max-width: 991px){
+	.social .social-list li + li {
+		padding: 0 0 0 14px;
+	}
+}
+@media screen and (max-width: 767px){	
+	#Mainvisual .slide-content {
+		margin: 20px 0 0 0;
+	}
+	#Mainvisual ul li {
+		min-height: 370px;
+	}
+	#Mainvisual .ttl-visual {
+		font-size: 30px;
+	}
+	#Mainvisual .txt-des {
+		font-size: 25px;
+		padding: 10px 0 0 0;
+	}
+	#Mainvisual .btn-start {
+		margin: 15px 0 0 0;
+	}
+	#Mainvisual .btn-start a {
+		font-size: 16px;
+		min-width: 150px;
+	}
+	#Download .col-sm-6 + .col-sm-6 {
+		margin-top: 30px;
+	}
+	.social .social-list {
+		text-align: center;
+	}
+	.social .txt {
+		font-size: 30px;
+		text-align: center;
+	}
+	.social .social-list {
+		padding: 30px 0 0 0;
+	}
+	.social .social-list li img {
+		max-height: 30px;
+	}
+	.social .social-list li + li {
+		padding: 0 0 0 25px;
+	}
+	.chatbot .item-txt .txt + .txt {
+		padding: 15px 0 0 0;
+	}
+	.chatbot .chatbot-list .chatbot-item {
+		margin: 0 auto;
+		padding: 30px 0 0 0;
+		max-width: 450px;
+	}
+	.chatbot .chatbot-list .chatbot-item img {
+		max-width: 450px;
+		width: 100%;
+		display: block;
+	}
+	.chatbot .chatbot-list .chatbot-item + .chatbot-item {
+		padding: 15px 0 0 0!important
+	}
+	.sharing .logo-list .logo-item + .logo-item {
+		margin-top: 15px!important;
+	}
+	#Streamers .nav-tabs li a .info-right {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	#Streamers .nav-tabs li a .follow {
+		top: 6px;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+	#Streamers .tab-content {
+		margin: 30px 0 0 0;
+	}
+}
